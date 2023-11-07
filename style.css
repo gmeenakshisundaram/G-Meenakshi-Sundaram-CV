@@ -1,0 +1,290 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0%;
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+} 
+.phone-icon{
+    color: darkmagenta;
+}  
+.envelope-icon{
+    color: lightgreen;
+}
+.location-icon{
+    color:lightskyblue;
+}
+.instagram-icon {
+    color: #E4405F; /* Set the color for Instagram icon */
+  }
+  
+.facebook-icon {
+    color: #1877F2; /* Set the color for Facebook icon */
+  }
+  
+.linkedin-icon {
+    color: #0077B5; /* Set the color for LinkedIn icon */
+  }
+  body {
+    background: linear-gradient(45deg,grey, rgb(157, 152, 157));/* transtion of colour */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;/* equal space around the flex*/
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+    flex-wrap: wrap;/* to adapt the changes in the space*/
+    position: relative;/* can be moved withinthe flex */
+}
+.profile-card{
+    background:black;/*background color of the profile-card*/
+    width: 501px;/* width of the black color*/
+    padding: 32px;/* the the spacing from the black color */
+   border-radius: 10px;/* radius of the black background*/
+   min-height: 400px;/*height of the black*/
+   position: relative;
+   color:wheat;/*color of the letters*/
+   margin: 15px;/* margin from the background purple to black*/
+   display:flex; /* creates a dynamic layout  and place the items within the layout*/
+   justify-content: space-between; /* provides equal space between all side*/
+   align-items: center;/* alligns them to center of page*/
+   flex-direction:column;/* column means top to bottom*/
+}
+.profile-pic{
+    margin-top:5px; /* margin from black to the pic top*/
+    overflow: hidden;/* to hide the part exceeding the boundary*/
+}
+img{
+    border-radius: 300px; /* seeting the image raduis*/
+}
+.profile-details{
+    align-items: center;
+    width: 100%;
+    display:flex;
+    flex-direction: column;/*downwards*/
+    justify-content: flex-start;/* all the contents will be in same line downward*/
+}
+.Strenghts{
+    background-color: rgb(124, 160, 149);
+    max-width: 850px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    position: relative;
+    display:flex;/*space and highlight*/
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+    border-radius: 15px;
+}
+.Languages{
+    background-color: rgb(124, 160, 132);
+    max-width: 850px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    position: relative;
+    display:flex;/*space and highlight*/
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+    border-radius: 15px;
+
+}
+.intro{   /* only the name and icon center*/
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;/*all the contend will be in the center*/
+}
+h2{
+    margin-top: 20px;/*  margin  from thr image */
+}
+h4{
+    font-weight: 600;/* for boldness of the content*/
+    padding: 5px 10px;
+    margin: 8px;
+ }
+ .social {
+     margin:10px;/*margin of the icon*/
+     
+ }
+ i{
+    background-color:white;/*background colour of icon*/
+    height: 23px;/* height of the box*/
+    width: 30px;/* width of the box*/
+    text-align: center;/* allign the to center*/
+    border-radius: 2px; /* radiusof the box */
+    font-size: 21px; /* font of the icon*/
+    margin: 5px;/*space between the icons*/
+
+ }
+ i:hover{ /* puesdo class for popup of icon when pointer is moved over it*/
+    transform: scale(1,1.5);
+    border: 2px solid gold;
+   
+}
+.contact-info{
+    background-color: rgb(23, 121, 186);/* background colour of the contact*/
+    padding: 15px; /*padding between the elements*/
+    border-radius:10px;/* radius of the border*/
+    width:100%;
+}
+.row{
+    display:flex;/* to place the deatils at right side*/
+    justify-content: space-between;/* to provide space in between the flex content*/
+    align-items: center;
+    border-bottom: 2px solid grey; /*border line below the each */
+   padding: 15px 0px;/*from top and bottom 15 from sides 0*/
+    margin-bottom: 10px; /*margin at the bottom*/
+}
+.content{
+    min-width: 60%;
+}
+.download-btn{
+    background: linear-gradient(45deg, red, rgb(245, 92, 92));
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+.about{
+    background-color: black;
+    max-width: 950px;
+    padding: 32px 48px;
+    border-radius: 10px;
+    margin-top: 1px;
+  
+}
+h1{
+    color:burlywood;
+    margin-bottom: 20px;
+    position: relative;
+    display:inline-block;
+    font-size: 45px;
+}
+p{
+    color: aliceblue;
+    font-size: 20px;
+}
+caption{
+    margin-top: 5px;
+}
+table{
+    background-color: rgb(31, 187, 187);
+    color:rgb(17, 20, 216);
+    max-width: 950px;
+    margin-top:25px;
+    margin-bottom: 25px;
+    position: relative;
+    display:inline-block;/*space and highlight*/
+    font-size: 25px;
+    width: 100%;
+    border-radius: 15px;
+} 
+th, td {
+    border: 2px solid ;
+    border-color: rgb(15, 122, 69);
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    width: 50%;
+   
+  }
+td {
+text-align: center;
+}
+th{
+    background-color:#c9e440;
+}
+.resume-Technical-skills{
+     background-color: aliceblue;
+    max-width: 850px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    position: relative;
+    display:flex;/*space and highlight*/
+    font-size: 25px;
+    width: 100%;
+    border-radius: 15px;
+    
+
+}
+p1{
+    color: rgb(227, 136, 17);
+    display: flex;
+    justify-content: center;
+}
+h3{
+    background-color: rgb(239, 186, 238);
+    max-width: 850px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    position: relative;
+    display:flex;/*space and highlight*/
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+    border-radius: 15px;
+
+}
+p2{
+    color: rgb(227, 136, 17);
+    display: flex;
+    justify-content: center;
+}
+.practical-experience{
+    background-color: #c9e440;
+    max-width: 850;
+    margin-top:30px;
+    margin-bottom: 22px;
+    position: relative;
+    display:flex;/*space and highlight*/
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+    border-radius: 15px;
+}
+p3{
+    color: rgb(178, 184, 178);
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+
+}
+hr{
+    width:100%;
+    margin-bottom: 14px;
+
+}
+p4{
+    color: #1877F2;
+    margin-bottom: 10px;
+
+}
+li{
+    padding-bottom: 6px;
+}
+.Project{
+    background-color: white;
+    max-width: 850;
+    margin-top:30px;
+    margin-bottom: 22px;
+    position: relative;
+    display:flex;/*space and highlight*/
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+    border-radius: 15px;
+    
+}
+p3{
+    margin-top: 10px;
+}
